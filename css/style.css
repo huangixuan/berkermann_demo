@@ -701,3 +701,49 @@ section#contact form#contactForm :-ms-input-placeholder {
 .owl-carousel .owl-dots .owl-dot.active {
   background: #b3b3b3;
 }
+
+.owl-theme .item {
+  padding: 1rem;
+}
+
+.owl-carousel .item h4 {
+  color: #000;
+  font-weight: 400;
+  font-size: 1.4375rem;
+  margin-top: 0rem;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* =====original_text===== */
+.original_banner .original_text {
+  position: relative;
+}
+
+.original_text h4 {
+  position: absolute;
+  /* padding-left: 35%;
+  width: 100%; */
+  left: 45%;
+  top: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media (max-width: 768px), print {
+  .original_text h4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px), print {
+  .original_text h4 {
+    font-size: 18px;
+  }
+}

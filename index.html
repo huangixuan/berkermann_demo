@@ -30,57 +30,7 @@
     <title>Document</title>
 
     <style>
-        .owl-theme .item {
 
-            padding: 1rem;
-        }
-
-        .owl-carousel .item h4 {
-            color: #000;
-            font-weight: 400;
-            font-size: 1.4375rem;
-            margin-top: 0rem;
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-
-        .img-responsive {
-            display: block;
-            max-width: 100%;
-            height: auto;
-        }
-
-        .original_banner .original_text {
-            position: relative;
-
-        }
-
-        .original_text h4 {
-            position: absolute;
-            /* padding-left: 35%;
-            width: 100%; */
-            left: 45%;
-            top: 40%;
-            text-align: center;
-            text-transform: uppercase;
-            color: white;
-        }
-
-
-
-        @media (max-width: 768px),
-        print {
-            .original_text h4 {
-                font-size: 12px;
-            }
-        }
-
-        @media (max-width: 992px),
-        print {
-            .original_text h4 {
-                font-size: 18px;
-            }
-        }
     </style>
 </head>
 
@@ -99,7 +49,7 @@
                     <li class="nav-item"><a class="nav-link" href="#services">品牌歷史</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">新品上市</a></li>
                     <li class="nav-item"><a class="nav-link" href="#introduction">品牌介紹</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#yt-video">影片介紹</a></li>
                     <li class="nav-item"><a class="nav-link" href="#store">分店資訊</a></li>
                 </ul>
             </div>
@@ -243,6 +193,31 @@
             </a>
         </div>
     </div>
+    <!-- ====video==== -->
+    <section class="page-section" id="yt-video">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">影片介紹</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/V1XiNg0M448"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vT5R4F9upX8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <!-- 品牌介紹 introduction-->
 
@@ -391,6 +366,8 @@
         loop: true,
         autoplay: true,
         dots: false,　　//显示圆点导航按钮
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         responsive: {
             0: {
                 items: 1
@@ -402,6 +379,7 @@
         loop: true,
         margin: 10,
         autoplay: true,
+        nav: true,
         dots: false,　　//显示圆点导航按钮
         responsive: {
             0: {
@@ -419,6 +397,7 @@
         loop: false,
         margin: 10,
         // nav: true,
+        //dots: true,　　//显示圆点导航按钮
         responsive: {
             0: {
                 items: 1
