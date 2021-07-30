@@ -106,11 +106,11 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header>
-        <div class="masthead" style="background-image: url(/img/header-bg.jpeg);"></div>
-        <div class="masthead"></div>
-        <div class="masthead"></div>
-        <div class="masthead"></div>
+    <header class=" owl-carousel">
+        <div class="masthead item" style="background-image: url(/img/index/header-bg/1.jpeg);"></div>
+        <div class="masthead item" style="background-image: url(/img/index/header-bg/2.jpeg);"></div>
+        <div class="masthead item" style="background-image: url(/img/index/header-bg/3.jpeg);"></div>
+        <div class="masthead item" style="background-image: url(/img/index/header-bg/4.jpeg);"></div>
 
 
     </header>
@@ -387,6 +387,18 @@
 </html>
 
 <script>
+
+    $('header.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        dots: false,　　//显示圆点导航按钮
+        responsive: {
+            0: {
+                items: 1
+            },
+
+        }
+    })
     $('.owl-carousel.owl-theme').owlCarousel({
         loop: true,
         margin: 10,
