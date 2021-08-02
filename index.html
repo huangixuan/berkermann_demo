@@ -46,8 +46,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">品牌歷史</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">新品上市</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#history">品牌歷史</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#newArrival">新品上市</a></li>
                     <li class="nav-item"><a class="nav-link" href="#introduction">品牌介紹</a></li>
                     <li class="nav-item"><a class="nav-link" href="#yt-video">影片介紹</a></li>
                     <li class="nav-item"><a class="nav-link" href="#store">分店資訊</a></li>
@@ -56,7 +56,7 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class=" owl-carousel">
+    <header class=" owl-carousel ">
         <div class="masthead item" style="background-image: url(/img/index/header-bg/1.jpeg);"></div>
         <div class="masthead item" style="background-image: url(/img/index/header-bg/2.jpeg);"></div>
         <div class="masthead item" style="background-image: url(/img/index/header-bg/3.jpeg);"></div>
@@ -64,8 +64,8 @@
 
 
     </header>
-    <!-- Services-->
-    <section class="page-section" id="services">
+    <!-- history-->
+    <section class="page-section" id="history">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">品牌歷史</h2>
@@ -77,67 +77,63 @@
 
     </section>
     <!-- product display-->
-    <div class="container-wrap">
-        <div class="row no-gutters">
-            <div class="col-md-6 col-lg-3 ftco-animate">
+    <div id="productDisplay">
+        <div class="row ">
+            <div class="col-md-6 col-lg-3">
                 <div class="project">
-                    <img src="img/product/index/1.jpg" class="img-fluid" alt="Colorlib Template">
+                    <img src="img/product/index/1.jpg" class="img-fluid" alt="">
                     <div class="text">
                         <h3>系列1</h3>
                     </div>
-                    <a href="img/product/index/1.jpg"
-                        class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="img/product/index/1.jpg" class="icon  d-flex justify-content-center align-items-center">
                         <span class="fas fa-link"></span>
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="col-md-6 col-lg-3 ">
                 <div class="project">
-                    <img src="img/product/index/2.jpg" class="img-fluid" alt="Colorlib Template">
+                    <img src="img/product/index/2.jpg" class="img-fluid" alt="">
                     <div class="text">
                         <h3>系列1</h3>
                     </div>
-                    <a href="img/product/index/2.jpg"
-                        class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="img/product/index/2.jpg" class="icon  d-flex justify-content-center align-items-center">
                         <span class="fas fa-link"></span>
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="col-md-6 col-lg-3 ">
                 <div class="project">
-                    <img src="img/product/index/3.jpg" class="img-fluid" alt="Colorlib Template">
+                    <img src="img/product/index/3.jpg" class="img-fluid" alt="">
                     <div class="text">
                         <h3>系列3</h3>
                     </div>
-                    <a href="img/product/index/3.jpg"
-                        class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="img/product/index/3.jpg" class="icon  d-flex justify-content-center align-items-center">
                         <span class="fas fa-link"></span>
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="col-md-6 col-lg-3 ">
                 <div class="project">
-                    <img src="img/product/index/1.jpg" class="img-fluid" alt="Colorlib Template">
+                    <img src="img/product/index/1.jpg" class="img-fluid" alt="e">
                     <div class="text">
                         <h3>系列4</h3>
                     </div>
-                    <a href="img/product/index/1.jpg"
-                        class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="img/product/index/1.jpg" class="icon  d-flex justify-content-center align-items-center">
                         <span class="fas fa-link"></span>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Portfolio Grid-->
-    <section class="page-section " id="portfolio">
+    <!-- newArrival -->
+    <section class="page-section " id="newArrival">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">新品上市</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
             <div class="row">
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-item">
                     <div class="item">
                         <img src="img/product/BK/1.jpeg" alt="">
                         <h4>1</h4>
@@ -171,25 +167,26 @@
 
 
 
+
             </div>
         </div>
     </section>
     <!-- Original-->
-    <div class="pagecontainer">
+    <div class="original_banner">
         <div class="container">
             <a href="#">
-                <div class="original_banner">
-                    <div class="original_text">
-                        <h4 class="h4">
-                            " mit dem Klassiker der Berkemann"
-                            <br>
-                            <strong> Original-Sandale</strong>
 
-                            "aktiv durch den Tag!"
-                        </h4>
-                        <img src="img/index/original-sandale.jpg" class="img-responsive" alt="">
-                    </div>
+                <div class="original_text">
+                    <h4 class="h4">
+                        " mit dem Klassiker der Berkemann"
+                        <br>
+                        <strong> Original-Sandale</strong>
+
+                        "aktiv durch den Tag!"
+                    </h4>
+                    <img src="img/index/original-sandale.jpg" alt="">
                 </div>
+
             </a>
         </div>
     </div>
@@ -230,88 +227,83 @@
                 </div>
             </div>
             <div class="row">
-
                 <div class="col-md-6 ">
-                    <div class="staff">
-                        <div>
-                            <img src="/img/index/About_us_berkemann_startseite.jpg" class="img-responsive" alt="">
-                        </div>
-                        <div class="text pt-4 text-center">
-                            <h2>ABOUT US</h2>
-                            <span class="position mb-2">Achitect</span>
-                            <p>Find out everything about our over 130-year long history as a company and the philosophy
-                                and values we stand for – our aim is your well-being.</p>
-
-                        </div>
+                    <div>
+                        <img src="/img/index/About_us_berkemann_startseite.jpg" alt="">
+                    </div>
+                    <div class="text pt-4 text-center">
+                        <h2>ABOUT US</h2>
+                        <span class="position ">Achitect</span>
+                        <p class="text-muted mt-3">Find out everything about our over 130-year long history as a
+                            company
+                            and the philosophy
+                            and values we stand for – our aim is your well-being.</p>
                     </div>
                 </div>
                 <div class="col-md-6 ">
-                    <div class="staff">
-                        <div>
-                            <img src="/img/index/Qualitaet_aus_gutem_grund_startseite.jpg" class="img-responsive"
-                                alt="">
-                        </div>
-                        <div class="text pt-4 text-center">
-                            <h2>QUALITY</h2>
-                            <span class="position mb-2">FOR A GOOD REASON</span>
-                            <p>When he founded the company in 1885, Heinrich Ad. Berkemann already placed maximum focus
-                                on the best quality and on ensuring that his footwear not only looked good but was also
-                                comfortable and characterized by a particularly good fit.</p>
+                    <div>
+                        <img src="/img/index/Qualitaet_aus_gutem_grund_startseite.jpg" alt="">
+                    </div>
+                    <div class="text pt-4 text-center">
+                        <h2>QUALITY</h2>
+                        <span class="position">FOR A GOOD REASON</span>
+                        <p class="text-muted mt-3"> When he founded the company in 1885, Heinrich Ad. Berkemann
+                            already not only looked good but was also
+                            comfortable and characterized by a particularly good fit.</p>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- 分店資訊 store-->
-    <section class="ftco-section testimony-section" id="store">
+    <section class=" page-section" id="store">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 heading-section ftco-animate text-center">
-                    <h2 class="mb-4">分店資訊</h2>
+                <div class="col-md-7 heading-section f text-center">
+                    <h2 class="section-heading text-uppercase">分店資訊</h2>
 
                 </div>
             </div>
-            <div class="row ftco-animate">
+            <div class="row ">
                 <div class="col-md-12">
-                    <div class="carousel-testimony owl-carousel">
+                    <div class="carousel-stroe owl-carousel">
 
 
                         <div class="item">
-                            <div class="testimony-wrap p-4 pb-5">
-                                <div class="user-img mb-5" style="background-image: url(img/store/1.jpg)">
+                            <div class="stroe-wrap p-4 pb-5">
+                                <div class="stroe-img mb-5" style="background-image: url(img/store/1.jpg)">
 
                                 </div>
                                 <div class="text">
                                     <h4>SOGO台北復興館​</h4>
                                     <p class="mb-5  line">
-                                        <sapn>台北市信義區松高路12號2樓</sapn>
+                                        <sapn class="position">台北市信義區松高路12號2樓</sapn>
                                         <br>
-                                        <span class="position">櫃位專線:(02)2720-1969​</span>
+                                        <span class="phone">櫃位專線:(02)2720-1969​</span>
                                         ​
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="testimony-wrap p-4 pb-5">
-                                <div class="user-img mb-5" style="background-image: url(img/store/2.jpg)">
+                            <div class="stroe-wrap p-4 pb-5">
+                                <div class="stroe-img mb-5" style="background-image: url(img/store/2.jpg)">
 
                                 </div>
                                 <div class="text">
                                     <h4>信義新天地A8館​​</h4>
                                     <p class="mb-5  line">
-                                        <span>台北市大安區忠孝東路三段300號9樓</span>
-                                        <br>
-                                        <span class="position">櫃位專線:(02)2711-1658​</span>​
+                                        <sapn class="position">台北市大安區忠孝東路三段300號9樓</span>
+                                            <br>
+                                            <span class="phone">櫃位專線:(02)2711-1658​</span>​
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="testimony-wrap p-4 pb-5">
-                                <div class="user-img mb-5" style="background-image: url(img/store/3.jpg)">
+                            <div class="stroe-wrap p-4 pb-5">
+                                <div class="stroe-img mb-5" style="background-image: url(img/store/3.jpg)">
                                     <span class="quote d-flex align-items-center justify-content-center">
                                         <i class="icon-quote-left"></i>
                                     </span>
@@ -319,9 +311,9 @@
                                 <div class="text">
                                     <h4>新光台中中港店</h4>
                                     <p class="mb-5 line">
-                                        <span> 地址:台中市西屯區台灣大道三段301號７樓</span>
-                                        <br>
-                                        <span class="position">櫃位專線:(04)2254-5226​</span>​
+                                        <sapn class="position"> 台中市西屯區台灣大道三段301號７樓</span>
+                                            <br>
+                                            <span class="phone">櫃位專線:(04)2254-5226​</span>​
                                     </p>
 
                                 </div>
@@ -353,7 +345,7 @@
             </div>
         </div>
     </footer>
-    <!-- Portfolio Modals-->
+    <!-- -->
 
 </body>
 <i class="fas fa-caret-square-right"></i>
@@ -375,12 +367,13 @@
 
         }
     })
-    $('.owl-carousel.owl-theme').owlCarousel({
+    $('.owl-carousel.owl-item').owlCarousel({
         loop: true,
         margin: 10,
         autoplay: true,
         nav: true,
         dots: false,　　//显示圆点导航按钮
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         responsive: {
             0: {
                 items: 1
@@ -393,7 +386,7 @@
             }
         }
     })
-    $('.carousel-testimony').owlCarousel({
+    $('.carousel-stroe').owlCarousel({
         loop: false,
         margin: 10,
         // nav: true,
